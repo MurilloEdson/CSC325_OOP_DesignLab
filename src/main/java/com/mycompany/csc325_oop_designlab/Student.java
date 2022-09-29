@@ -16,18 +16,17 @@ public class Student extends Human{
     public void setGPA(double GPA) {
         this.GPA = GPA;
     }
+    
+    //Address variable had to be changed in the parent class to protected
 
     @Override
     public String getAddress() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return address;
     }
 
     @Override
     public void setAddress(String address) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.address = address;
     }
-
-	
-	// ToDo 4: Add comments to your code
 
 }
