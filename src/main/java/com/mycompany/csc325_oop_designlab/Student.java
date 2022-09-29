@@ -6,6 +6,16 @@ package com.mycompany.csc325_oop_designlab;
  */
 
 public class Student extends Human{
+    
+    private double GPA;
+
+    public double getGPA() {
+        return GPA;
+    }
+
+    public void setGPA(double GPA) {
+        this.GPA = GPA;
+    }
 
     @Override
     public String getAddress() {
@@ -16,9 +26,7 @@ public class Student extends Human{
     public void setAddress(String address) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-	
-	
-	// ToDo 3: Add a field for GPA and create setter and getter
+
 	
 	// ToDo 4: Add comments to your code
 
