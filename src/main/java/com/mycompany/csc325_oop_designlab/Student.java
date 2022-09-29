@@ -7,8 +7,16 @@ package com.mycompany.csc325_oop_designlab;
 
 public class Student extends Human{
 
+    @Override
+    public String getAddress() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setAddress(String address) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 	
-	// ToDo 2: Fix the resulting errors
 	
 	// ToDo 3: Add a field for GPA and create setter and getter
 	
