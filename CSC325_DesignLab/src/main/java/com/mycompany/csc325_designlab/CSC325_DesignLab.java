@@ -8,9 +8,6 @@ public class CSC325_DesignLab {
 
     public static void main(String[] args) {
 
-
-        // ToDo 6: Fix the constructor of Student class
-        // Todo 7: Create two classes for Freshman and Senior 
         // ToDo 8: The senior class should have a minimum of 85 credits  
         // ToDo 9: Add a toString method for Freshman class
         // ToDo 10: Add a toString method for Senior class
